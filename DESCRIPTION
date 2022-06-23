@@ -1,0 +1,11 @@
+Package: kgFRA
+Title: Financial Risk Analysis Package - analyze your stocks!
+Version: 0.1
+Authors@R: 
+    person("Kamil", "Golis", , "kamil.d.golis@gmail.com", role = c("aut", "cre"))
+Description: The package is intended to enable user to analyze stocks in terms of financial risk. It contains functions to plot prices and daily returns, calculate summary statistics, Risk-Adjusted Performance Measures, Value at Risk and Expected Shortfall. The stocks are accessed via quantmod package.
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: quantmod, stats, PerformanceAnalytics
+RoxygenNote: 7.2.0
